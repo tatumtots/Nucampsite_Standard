@@ -22,7 +22,6 @@
 <body>
 
 <!--Heading/Jumbotron contents-->
-
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row row-content align-items-center">
@@ -36,7 +35,7 @@
                     <h2 class="text-sm-right">a better way to camp</h2>
                 </div>
                 <div class="col-md-4 col-xl-2 mt-4"> 
-                    <a class="btn btn-info btn-lg" role="button" data-toggle="modal" data-target="#reserveModal">
+                    <a class="btn btn-info btn-lg" role="button" id="reserveButton">
                     Reserve Campsite</a>
                 </div>
 
@@ -45,7 +44,6 @@
     </header>
 
 <!--Modal Code Reserve Campsite-->
-
     <div id="reserveModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
@@ -103,7 +101,6 @@
     </div>
      
 <!--Navbar-->
-
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>
@@ -118,7 +115,7 @@
                     <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <a role="button" id="loginButton">
                             <i class="fa fa-sign-in"></i>Login
                     </a>
                 </span>
@@ -127,7 +124,6 @@
     </nav>
 
 <!--ModalCode Login-->
-
 <div id="loginModal" class="modal fade" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -166,7 +162,6 @@
 </div>
 
 <!--Carousel-->
-   
     <div class="container">
         <div class="row row-content">
             <div class ="col-md-8 mx-auto">
@@ -235,7 +230,6 @@
     </div>
 
 <!--2nd Paragraph-->
-    
     <div class="row row-content align-items-center">
         <div class="container">
             <div class="row row-content align-items-center">
@@ -257,7 +251,6 @@
         </div>
         
 <!--3rd Paragraph-->
-
 <div class="row row-content align-items-center">
     <div class="container">
         <div class="row row-content align-items-center">
@@ -279,7 +272,6 @@
     
 
 <!--Footer navigation-->
-
     <footer class="site-footer">
         <div class="container">
             <div class="row row-content align-items-center">
@@ -294,7 +286,6 @@
         </div>
 
 <!--Social Links-->
-
         <div class="col-6 col-sm-5 text-center">
             <h5>Social</h5>
             <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
@@ -304,7 +295,6 @@
         </div>
 
 <!--phone and email-->
-
         <div class="col-sm-4 text-center">
             <a role="button"class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone fa-lg text-primary"></i>1-206-555-1234</a><br />
             <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope fa-lg text-primary"></i>campsites@nucamp.co</a>
@@ -312,6 +302,7 @@
         </div>
         </div>
     </footer>
+
         <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
 
         <!-- build:js js/main.js -->
@@ -323,5 +314,4 @@
         
         
 </body>
-
 </html>
